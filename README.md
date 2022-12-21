@@ -2,11 +2,12 @@
 **Likelion AI SCHOOL7** 국비 교육에서의 프로젝트 (본인 코드)
 
 |순번|제목|개요|파이프라인|배포|             
-|:------:|:---:|:------:|:------:|:------:|             
-|1|웹툰 순위 분석|BeautifulSoup과 Requests를 이용해 웹툰 순위를 조사한다.|weboon_rank.py|                            
-|2|이혼 사유 분석|지역별 이혼 사유에 대해 시각화하고 분석한다.|reason_of_divorce.py|          
-|3|교통사고 원인 분석|법규위반에 대한 교통사고 원인을 시각화하고 분석한다.|traffic_accident.py|<img src="https://img.shields.io/badge/streamlit-FF4B4B?style=flat-square&logo=streamlit&logoColor=A8B9CC"/>     
-|4|제주도 도로 교통량 예측|제주도 도로 교통 데이터를 가지고 EDA 및 Modeling을 한다.|traffic_predict_in_Jeju.py|           
+|:-:|:-------:|:------:|:---:|:------:|             
+|1|웹툰 순위 분석|BeautifulSoup과 Requests를 이용해 웹툰 순위를 조사한다.|weboon_rank.ipynb|                            
+|2|이혼 사유 분석|지역별 이혼 사유에 대해 시각화하고 분석한다.|reason_of_divorce.ipynb|          
+|3|교통사고 원인 분석|법규위반에 대한 교통사고 원인을 시각화하고 분석한다.|traffic_accident.ipynb|<img src="https://img.shields.io/badge/streamlit-FF4B4B?style=flat-square&logo=streamlit&logoColor=A8B9CC"/>     
+|4|제주도 도로 교통량 예측|제주도 도로 교통 데이터를 가지고 EDA 및 Modeling을 한다.|traffic_predict_in_Jeju.ipynb|      
+|5|노트북 가격 예측|노트북의 정보 데이터를 가지고 EDA 및 Modeling을 통해 가격을 예측한다.|Laptop_price_predict.ipynb|
 
 ## ✏ mini project      
 ### 1️⃣ Webtoon Rank        
@@ -52,7 +53,32 @@
 **LightGBM**을 이용해 교통량 예측하였다.                
 <img src="https://user-images.githubusercontent.com/72390138/201582425-1f6c99e5-a940-4b44-9863-3e2568d934ef.png" width="380" height="480">    
 **GridSearchCV**를 이용한 최적의 하이퍼 파라미터 : {'learning_rate': 0.05, 'max_depth': 5, 'min_child_samples': 5, 'num_leaves': 20}            
-test data MAE 점수 : 5.77352                   
+🍀 test data MAE 점수 : 5.77352     
+
+---
+
+### 4️⃣ Prediction of Laptop price
+
+📌 github : meji9086/5nly-code-repository 참고
+
+**노트북 가격 예측하기**
+#### EDA
+   
+<img src="https://user-images.githubusercontent.com/72390138/203262255-0d0271e7-9ec6-4821-9374-cb4a3f21f4f2.png" weight="550" height="450">         
+Notebook의 종류가 월등하게 높은 것을 확인할 수 있다.    
+이는, 들고다닐 수 있는 편의성으로 인해 구매율이 높아 생산률도 높을 것이라고 추측할 수 있다.       
+
+
+<img src="https://user-images.githubusercontent.com/72390138/203263872-972f5506-cea6-42c7-a9d4-51532bb8749b.png">        
+제조업은 Dell, Venovom, HP의 제품들이 월등하게 많은 것을 확인할 수 있다.     
+
+
+
+#### Modeling       
+**RandomForestRegressor**를 이용해 노트북 가격을 예측하였다.   
+<img src="https://user-images.githubusercontent.com/72390138/203267744-ff0cd8ac-0508-4c54-bf62-476a704473bc.png" weight="500" height="400">         
+feature 간 중요도는 **1위 RAM, 2위 Peso(무게)** 순으로 높은 것을 알 수 있다.       
+🍀 test data RMSE : 402       
 
 
 ---
