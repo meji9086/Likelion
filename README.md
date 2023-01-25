@@ -5,11 +5,14 @@
 |:-:|:-------:|:------:|:---:|:------:|             
 |1|웹툰 순위 분석|BeautifulSoup과 Requests를 이용해 웹툰 순위를 조사한다.|weboon_rank.ipynb|                            
 |2|이혼 사유 분석|지역별 이혼 사유에 대해 시각화하고 분석한다.|reason_of_divorce.ipynb|          
-|3|교통사고 원인 분석|법규위반에 대한 교통사고 원인을 시각화하고 분석한다.|traffic_accident.ipynb|<img src="https://img.shields.io/badge/streamlit-FF4B4B?style=flat-square&logo=streamlit&logoColor=A8B9CC"/>|     
+|3|교통사고 원인 분석|법규위반에 대한 교통사고 원인을 시각화하고 분석한다.|traffic_accident.ipynb|<a href="https://meji9086-traffic-accident-data-analysis-1-j6stsu.streamlit.app/"><img src="https://img.shields.io/badge/streamlit-FF4B4B?style=flat-square&logo=streamlit&logoColor=A8B9CC"/>|     
 |4|제주도 도로 교통량 예측|제주도 도로 교통 데이터를 가지고 EDA 및 Modeling을 한다.|traffic_predict_in_Jeju.ipynb|      
 |5|노트북 가격 예측|노트북의 정보 데이터를 가지고 EDA 및 Modeling을 통해 가격을 예측한다.|Laptop_price_predict.ipynb|       
 |6|청경채 성장률 예측|인공지능을 활용하여 작물의 효율적인 생육을 위한 최적의 환경을 도출한다.|prediction_bokchoy_growth.ipynb|     
-|7|마스크 착용/미착용 분류|마스크 착용/미착용 분류의 서비스를 제공하고자 한다.|Whether_to_wear_a_mask.ipynb|<img src="https://img.shields.io/badge/streamlit-FF4B4B?style=flat-square&logo=streamlit&logoColor=A8B9CC"/> 
+|7|마스크 착용/미착용 분류|마스크 착용/미착용 분류의 서비스를 제공하고자 한다.|Whether_to_wear_a_mask.ipynb|<a href="https://seul1230-mask-classification-main-pqg0f0.streamlit.app/"><img src="https://img.shields.io/badge/streamlit-FF4B4B?style=flat-square&logo=streamlit&logoColor=A8B9CC"/>      
+|8|문장 유형 분류|AI 모델을 할용하여 언어가 쓰이는 모든 영역에서 보다 사용자 친화적인 서비스를 제공하고자 한다.|sentences_type_classification.ipynb|      
+|9|브랜드 리뷰 분석|브랜드별 리뷰를 분석하여 약점과 강점을 원샷으로 도출하고자 한다.|brand_review_analysis.ipynb|<a href="https://meji9086-brand-review-analysis-withnlp-app-vqf7p3.streamlit.app/"><img src="https://img.shields.io/badge/streamlit-FF4B4B?style=flat-square&logo=streamlit&logoColor=A8B9CC"/>|    
+|10|olist 기업 분석|브라질 olist 기업을 분석하여 마케팅 전략을 내세우고자 한다.|olist_corporate_analysis.ipynb|          
 
 ## ✏ mini project      
 ### 1️⃣ Webtoon Rank        
