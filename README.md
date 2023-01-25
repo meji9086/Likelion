@@ -126,13 +126,12 @@ private score : 17.53
 **Tensorflow**를 이용해 마스크 착용 여부를 분류하였다.    
 **Resnet152V**, **VGG19** 그리고 **DenseNet121**를 이용하여 성능을 비교하였으며, **Resnet152V**이 가장 높은 성능을 띄었다.       
 
-🍀 Resnet152V
-![image](https://user-images.githubusercontent.com/72390138/214471581-16d70af0-582b-4900-8c8f-c313a3ecbbdd.png)     
-![image](https://user-images.githubusercontent.com/72390138/214471589-bb6b13f3-a87d-4ba4-95fd-eea5be933038.png)    
+🍀 Resnet152V      
+<img src="https://user-images.githubusercontent.com/72390138/214471581-16d70af0-582b-4900-8c8f-c313a3ecbbdd.png" width="350" height="350"> 
+<img src="https://user-images.githubusercontent.com/72390138/214471589-bb6b13f3-a87d-4ba4-95fd-eea5be933038.png" width="350" height="350">      
 
 ⭐ 팀원들 사진으로 성능 평가해보기     
-![image](https://user-images.githubusercontent.com/72390138/214471714-64d184ad-292d-4c24-a950-dd620ef41d18.png)
-
+<img src="https://user-images.githubusercontent.com/72390138/214471714-64d184ad-292d-4c24-a950-dd620ef41d18.png" width="400" height="450">      
 ---   
 
 ### 8️⃣ Sentences type Classification    
@@ -142,11 +141,11 @@ private score : 17.53
 **문장 유형 분류하기**     
 
 #### 📊 EDA      
-![image](https://user-images.githubusercontent.com/72390138/214471857-1ca7e2f3-e3a1-4cdc-8036-3aefe596cbd1.png)     
+<img src="https://user-images.githubusercontent.com/72390138/214471857-1ca7e2f3-e3a1-4cdc-8036-3aefe596cbd1.png" width="350" height="400">       
 각 label의 빈도수를 시각화하여 확인해본 결과 시제를 제외한 모든 label은 치우쳐진 데이터임을 확인하였다.   
 이에 따른 해결책을 생각해야할 것이다.    
 
-![image](https://user-images.githubusercontent.com/72390138/214471950-c2e874f7-0054-4abf-a8fe-96feb8b118a3.png)     
+<img src="https://user-images.githubusercontent.com/72390138/214471950-c2e874f7-0054-4abf-a8fe-96feb8b118a3.png" width="350" height="400">       
 label을 하나로 통합하여 빈도수를 확인해본 결과, 각 클래스 사이에서 불균형이 일어날 수 있음을 알 수 있었다.    
  
 #### 🔎 Modeling    
