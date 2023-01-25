@@ -131,7 +131,7 @@ private score : 17.53
 <img src="https://user-images.githubusercontent.com/72390138/214471589-bb6b13f3-a87d-4ba4-95fd-eea5be933038.png" width="450" height="300">      
 
 ⭐ 팀원들 사진으로 성능 평가해보기     
-<img src="https://user-images.githubusercontent.com/72390138/214471714-64d184ad-292d-4c24-a950-dd620ef41d18.png" width="900" height="550">      
+<img src="https://user-images.githubusercontent.com/72390138/214471714-64d184ad-292d-4c24-a950-dd620ef41d18.png" width="900" height="650">      
 ---   
 
 ### 8️⃣ Sentences type Classification    
